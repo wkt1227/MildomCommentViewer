@@ -1,7 +1,7 @@
 import MildomCommentViewer
 import sys
 
-roomId = sys.argv[1]
+room_id = sys.argv[1]
 
-mcv = MildomCommentViewer.MildomCommentViewer(roomId)
+mcv = MildomCommentViewer.MildomCommentViewer(room_id)
 mcv.start()
